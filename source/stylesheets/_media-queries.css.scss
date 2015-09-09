@@ -10,6 +10,12 @@
                 line-height: 2px;
             }
         }
+        .fender-logo{
+            width: 30px;
+        }
+        .video{
+            margin-top: -40px;
+        }        
     }
 
     /* Extra Small Devices, Phones */ 
@@ -21,7 +27,13 @@
             h2{
                 line-height: 2px;
             }
-        }        
+        }
+        .fender-logo{
+            width: 50px;
+        }
+        .video{
+            margin-top: -20px;
+        }                         
     }
 
     /* Small Devices, Tablets */
@@ -29,6 +41,12 @@
         h2{
             font-size: 20px;
         }
+        .fender-logo{
+            width: 70px;
+        }
+        .video{
+            margin-top: 0px;
+        }                  
     }
 
     /* Medium Devices, Desktops */
@@ -45,5 +63,7 @@
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-
+        .fender-logo{
+            width: 90px;
+        } 
     }
