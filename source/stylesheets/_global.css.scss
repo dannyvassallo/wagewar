@@ -30,9 +30,26 @@ h1, h2, h3, h4, h5, p, b, strong{
     color: $tan;
 }
 .shadow{
-    text-shadow: 1px 1px 10px #000;    
+    text-shadow: 1px 1px 10px $blue;    
 }
 .contest-btn{
     background-color: $blue !important;
     border-color: $tan !important;
+}
+.border, .bundle img{     
+    border: 15px solid transparent;    
+    border-image-source: url('https://s3.amazonaws.com/myfangate.com/wagewar/lite-bg.jpg');
+    border-image-repeat: round;
+    border-image-slice: 30;
+    border-image-width: 15px; 
+    -webkit-border: 15px solid transparent;    
+    -webkit-border-image-source: url('https://s3.amazonaws.com/myfangate.com/wagewar/lite-bg.jpg');
+    -webkit-border-image-repeat: round;
+    -webkit-border-image-slice: 30;
+    -webkit-border-image-width: 15px;            
+    -o-border: 15px solid transparent;    
+    -o-border-image-source: url('https://s3.amazonaws.com/myfangate.com/wagewar/lite-bg.jpg');
+    -o-border-image-repeat: round;
+    -o-border-image-slice: 30;
+    -o-border-image-width: 15px;     
 }
