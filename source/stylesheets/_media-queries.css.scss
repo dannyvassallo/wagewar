@@ -15,7 +15,15 @@
         }
         .video{
             margin-top: -40px;
-        }        
+        }
+        .promo{
+            width: 100%;
+            margin-left: 0;  
+        }
+        .new-album{            
+            margin-top: -25%;
+            margin-bottom: 100px;
+        }               
     }
 
     /* Extra Small Devices, Phones */ 
@@ -33,7 +41,15 @@
         }
         .video{
             margin-top: -20px;
-        }                         
+        }  
+        .promo{
+            width: 120%;
+            margin-left: -10%;  
+        }
+        .new-album{            
+            margin-top: -37%;
+            margin-bottom: 100px;
+        }                             
     }
 
     /* Small Devices, Tablets */
@@ -46,7 +62,15 @@
         }
         .video{
             margin-top: 0px;
-        }                  
+        }
+        .promo{
+            width: 120%;
+            margin-left: -10%;  
+        }
+        .new-album{            
+            margin-top: -37%;
+            margin-bottom: 100px;
+        }                          
     }
 
     /* Medium Devices, Desktops */
@@ -58,7 +82,15 @@
             h2{
                 line-height: 5px;
             }
-        }        
+        }
+        .promo{
+            width: 120%;
+            margin-left: -10%;  
+        }
+        .new-album{            
+            margin-top: -37%;
+            margin-bottom: 100px;
+        }                
     }
 
     /* Large Devices, Wide Screens */
@@ -66,4 +98,12 @@
         .fender-logo{
             width: 90px;
         } 
+        .promo{
+            width: 120%;
+            margin-left: -10%;  
+        }
+        .new-album{            
+            margin-top: -37%;
+            margin-bottom: 100px;
+        }        
     }
