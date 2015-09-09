@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, p, b, strong{
     color: $tan;
 }
 .shadow{
-    text-shadow: 1px 1px 10px $blue;    
+    text-shadow: 1px 1px 10px black;    
 }
 .contest-btn{
     background-color: $blue !important;
@@ -52,4 +52,9 @@ h1, h2, h3, h4, h5, p, b, strong{
     -o-border-image-repeat: round;
     -o-border-image-slice: 30;
     -o-border-image-width: 15px;     
+}
+.box-shadow{
+    -webkit-box-shadow: 10px 10px 53px -11px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 53px -11px rgba(0,0,0,1);
+    box-shadow: 10px 10px 53px -11px rgba(0,0,0,1);
 }
