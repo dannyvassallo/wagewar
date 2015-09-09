@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
     <!-- Stylesheets -->
     <%= stylesheet_link_tag "all" %>
   </head>
@@ -17,5 +18,30 @@
 
     <!-- Javascripts -->
     <%= javascript_include_tag  "all" %>
+    <script src="./javascripts/sharecontest-v1.js" type="text/javascript"></script>
+    <script>
+      // init contest //
+      $("#contest").shareContestFB({
+        context: {
+          fbAppId: "132860210391783",
+          fbShareTitle: "WIN A CUSTOM GUITAR FROM BLESSTHEFALL",
+          fbShareLink: "http://fngt.it/Btfguitar/f",
+          fbImageUrl: "https://s3.amazonaws.com/myfangate.com/blessthefall/shareimage.jpg",
+          fbSubText: "http://fngt.it/Btfguitar/f",
+          fbDialog: "Enter to win a custom guitar!",
+          formActionUrlId: "14T07ObbSeOFd8rbgWoOtfx1Vxv2D_ZqUdIAZFRW0Dow",
+          firstNameId: "749925490",
+          lastNameId: "453795809",
+          emailId: "1493557255",
+          optInId: "583147646",
+          rulesId: "1082888376",
+          fbCheckId: "701792494",
+          twitterCheckId: "1730686214",
+          contactName: "Fearless Records",
+          rulesLink: "http://google.com",
+          thankYouMsg: "Thanks for entering!",
+        }
+      });
+    </script>    
   </body>
 </html>

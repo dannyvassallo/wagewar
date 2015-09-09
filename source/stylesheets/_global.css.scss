@@ -2,12 +2,12 @@ $tan: #b6aa96;
 $blue: #748a8b;
 @font-face {
     font-family: 'goudy_trajan_regularregular';
-    src: url('./fonts/goudytrajan-regular-trial-webfont.eot');
-    src: url('./fonts/goudytrajan-regular-trial-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/goudytrajan-regular-trial-webfont.woff2') format('woff2'),
-         url('./fonts/goudytrajan-regular-trial-webfont.woff') format('woff'),
-         url('./fonts/goudytrajan-regular-trial-webfont.ttf') format('truetype'),
-         url('./fonts/goudytrajan-regular-trial-webfont.svg#goudy_trajan_regularregular') format('svg');
+    src: url('../fonts/goudytrajan-regular-trial-webfont.eot');
+    src: url('../fonts/goudytrajan-regular-trial-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/goudytrajan-regular-trial-webfont.woff2') format('woff2'),
+         url('../fonts/goudytrajan-regular-trial-webfont.woff') format('woff'),
+         url('../fonts/goudytrajan-regular-trial-webfont.ttf') format('truetype'),
+         url('../fonts/goudytrajan-regular-trial-webfont.svg#goudy_trajan_regularregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -31,4 +31,8 @@ h1, h2, h3, h4, h5, p, b, strong{
 }
 .shadow{
     text-shadow: 1px 1px 10px #000;    
+}
+.contest-btn{
+    background-color: $blue !important;
+    border-color: $tan !important;
 }
