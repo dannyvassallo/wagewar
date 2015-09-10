@@ -1,0 +1,121 @@
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        h2{
+            font-size: 8px;
+        }
+        .cta{
+            h2{
+                line-height: 2px;
+            }
+        }
+        .fender-logo{
+            width: 30px;
+        }
+        .video{
+            margin-top: -40px;
+        }
+        .promo{
+            width: 100%;
+            margin-left: 0;  
+        }
+        .new-album{            
+            margin-top: -25%;
+            margin-bottom: 100px;
+        }
+        #contest{
+            margin-top: 0px;
+        }               
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        h2{
+            font-size: 13px;
+        }
+        .cta{
+            h2{
+                line-height: 2px;
+            }
+        }
+        .fender-logo{
+            width: 50px;
+        }
+        .video{
+            margin-top: -20px;
+        }  
+        .promo{
+            width: 120%;
+            margin-left: -10%;  
+        }
+        .new-album{            
+            margin-top: -37%;
+            margin-bottom: 100px;
+        }
+        #contest{
+            margin-top: 60px;
+        }                             
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        h2{
+            font-size: 20px;
+        }
+        .fender-logo{
+            width: 70px;
+        }
+        .video{
+            margin-top: 0px;
+        }
+        .promo{
+            width: 120%;
+            margin-left: -10%;  
+        }
+        .new-album{            
+            margin-top: -37%;
+            margin-bottom: 100px;
+        }
+        #contest{
+            margin-top: 60px;
+        }                                     
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        h2{
+            font-size: 25px;
+        }
+        .cta{
+            h2{
+                line-height: 5px;
+            }
+        }
+        .promo{
+            width: 120%;
+            margin-left: -10%;  
+        }
+        .new-album{            
+            margin-top: -37%;
+            margin-bottom: 100px;
+        }
+        #contest{
+            margin-top: 100px;
+        }                        
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        .fender-logo{
+            width: 90px;
+        } 
+        .promo{
+            width: 120%;
+            margin-left: -10%;  
+        }
+        .new-album{            
+            margin-top: -37%;
+            margin-bottom: 100px;
+        }        
+    }
