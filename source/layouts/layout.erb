@@ -6,7 +6,7 @@
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Use title if it's in the page YAML frontmatter -->    
+    <!-- Use title if it's in the page YAML frontmatter -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
     <!-- Stylesheets -->
@@ -20,7 +20,7 @@
       ga('create', 'UA-67417092-1', 'auto');
       ga('send', 'pageview');
 
-    </script>    
+    </script>
   </head>
 
   <body class="<%= page_classes %>">
@@ -52,6 +52,10 @@
           thankYouMsg: "Thanks for entering!",
         }
       });
-    </script>    
+      $(function(){
+        $('.next').html('THANKS FOR ENTERING').css({'max-width': 500,'cursor':'default'}).off('click');
+        $('input').attr('disabled', true).css({'background-color':'#ccc','color':'grey'});
+      });
+    </script>
   </body>
 </html>
